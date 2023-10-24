@@ -2,6 +2,8 @@
 
 This is a simple Python clock application. This project displays the current time, day of the week, and date on a graphical user interface.
 
+<img src="clock.png" alt="PiaClock Screenshot" width="400">
+
 ## Features
 - Displays the current time in the 12-hour format with seconds and AM/PM.
 - Shows the current day of the week.

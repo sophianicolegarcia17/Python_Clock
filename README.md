@@ -18,9 +18,18 @@ This application can be run as an executable file named **PiaClock.exe**. By sim
 - **Time Module**: The clock updates every second, utilizing the `time` module to fetch the current time, day, and date.
 - **Recursion**: The clock uses a recursive function to continuously update the time, ensuring it stays accurate.
 
+## Building the Executable
+
+To build the PiaClock executable, the PyInstaller tool was used with the following command:
+
+```plaintext
+pyinstaller -F -w -i PiaClock.ico clock.py
+
 ## Project Files
 - `clock.py`: The source code for the PiaClock application.
 - `PiaClock.exe`: An executable file created using PyInstaller.
+- `clock.png`: A screenshot of the PiaClock application.
+- `PiaClock.ico`: The application icon file used.
 
 This project is a personal creation and exercise. :)
 
